@@ -22,3 +22,10 @@ await submitButton.click();
 
 
 })
+test("login",async ()=>{
+const browser : Browser = await chromium.launch({headless:false});
+const page :Page =await browser.newPage();
+await page.goto('http://127.0.0.1:5500/form.html');
+const email :Locator=await page.locator('#txt1');
+await email.fill('hemanth');
+});
