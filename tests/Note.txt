@@ -1,0 +1,15 @@
+23/7/25
+
+*End to End testing with modulerization
+-creating end to end test cases
+-splitting test into reusable module and component
+-Data Driven testing with parameterize
+-CI/CD Integration with Git and Git Hub
+
+
+-In End to End testing we verify that the complete functionlity of software Or application is working proper or Not from start to finish
+-we ensure that integrated component work together seamlessly.
+-In this we validate the entire workflow from users perspective.
+
+Example: Real Example
+    user will login ===> product will add to cart => check out.
